@@ -1,5 +1,6 @@
 const express = require('express')
 const router = express.Router()
+const petController = require
 
 
 router.get('/pets', (req, res) => res.send('Lista de Pets'));
