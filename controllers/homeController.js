@@ -1,6 +1,10 @@
 const homeController = {
     index: (req, res) => {
-        res.send('Olá mundo!');
+        const title = 'Minha primeira aplicação com ejs';
+        res.render('home', { title });
+    },
+    login: (req, res) => {
+        res.send('Login');
     }
 }
 
